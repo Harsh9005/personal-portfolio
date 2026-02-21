@@ -143,11 +143,8 @@ st.markdown(
 """
 )
 
-col1, col2 = st.columns(2)
-
-with col1:
-    st.markdown(
-        """
+st.markdown(
+    """
 #### 🏛️ Fraunhofer Institute IME · Frankfurt, Germany
 **Postdoctoral Research Fellow** · Feb 2019 – Jul 2019
 
@@ -157,21 +154,7 @@ with col1:
 - **AstraZeneca Collaboration:** Led formulation development for a novel
   cancer therapeutic (Clinical Trial: NCT04745689).
 """
-    )
-
-with col2:
-    st.markdown(
-        """
-#### 🏛️ Leibniz University Hannover · Germany
-**Research Fellow (Ph.D. Student)** · Oct 2014 – Sep 2018
-
-- **Ph.D. grade 1.0/1.0 (Summa Cum Laude)** — highest possible distinction
-  in the German academic system.
-- **Research Innovation:** Developed novel aptamer-based biosensors for
-  real-time analyte detection, combining nanotechnology with bioanalytical
-  chemistry.
-"""
-    )
+)
 
 st.markdown("---")
 
