@@ -149,8 +149,8 @@ st.markdown(
 **Postdoctoral Research Fellow** · Feb 2019 – Jul 2019
 
 - **Global Technology Transfer:** Orchestrated transfer of formulation
-  technologies from German HQ to Singapore — zero data loss across
-  regulatory jurisdictions.
+  technologies from German Team to Singapore — maintaining efficiency
+  between both teams.
 - **AstraZeneca Collaboration:** Led formulation development for a novel
   cancer therapeutic (Clinical Trial: NCT04745689).
 """
