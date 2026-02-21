@@ -10,7 +10,7 @@
 
 ```
 personal-portfolio/
-├── app.py                    # About Me (landing page)
+├── 0_🏠_About_Me.py          # About Me (landing page)
 ├── pages/
 │   ├── 1_🔬_Projects.py     # Tools & scientific software
 │   ├── 2_📚_Publications.py # Selected publications
@@ -44,7 +44,7 @@ Push to GitHub and the blog updates automatically via Streamlit Community Cloud.
 git clone https://github.com/Harsh9005/personal-portfolio.git
 cd personal-portfolio
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run "0_🏠_About_Me.py"
 ```
 
 ## License
