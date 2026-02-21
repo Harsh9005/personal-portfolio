@@ -39,15 +39,19 @@ st.markdown("📍 Singapore")
 st.markdown("---")
 
 # ── Social Links ────────────────────────────────────────────────────────────
-st.markdown(
-    """
-🔗 [LinkedIn](https://linkedin.com/in/harshvardhan-modh-phd/) ·
-🎓 [Google Scholar](https://scholar.google.de/citations?user=J2dpG98AAAAJ&hl=en) ·
-💻 [GitHub](https://github.com/Harsh9005)
-
-📧 phahbm@nus.edu.sg *(work)* · 📧 hbmodh@gmail.com *(personal)*
-"""
-)
+col1, col2, col3, col4, col5 = st.columns(5)
+with col1:
+    st.markdown("🔗 [LinkedIn](https://linkedin.com/in/harshvardhan-modh-phd/)")
+with col2:
+    st.markdown(
+        "🎓 [Google Scholar](https://scholar.google.de/citations?user=J2dpG98AAAAJ&hl=en)"
+    )
+with col3:
+    st.markdown("💻 [GitHub](https://github.com/Harsh9005)")
+with col4:
+    st.markdown("📧 phahbm@nus.edu.sg  \n*(work)*")
+with col5:
+    st.markdown("📧 hbmodh@gmail.com  \n*(personal)*")
 
 st.markdown("---")
 
