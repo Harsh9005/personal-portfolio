@@ -108,6 +108,73 @@ FDA / EMA Regulatory Knowledge, Bioequivalence Strategy
 
 st.markdown("---")
 
+# ── Professional Experience ─────────────────────────────────────────────────
+st.header("Professional Experience")
+
+st.markdown(
+    """
+#### 🏛️ National University of Singapore · Singapore
+**Senior Research Fellow** · Aug 2019 – Present
+"""
+)
+
+st.markdown(
+    """
+- **Pfizer Inc. (USA) – Complex Generics Strategy:** Led biorelevant
+  characterization platforms and established novel IVIVC models. Pioneered
+  'Biomechanical Blind Spot' analysis — submitted to *Nature Biomedical
+  Engineering*.
+- **Sun Pharmaceuticals (India) – Bioequivalence Strategy:** Directed
+  physicochemical characterization of Lipodox for bioequivalence studies
+  and generic product development for the US market.
+- **CureVac (Germany) – mRNA-LNP Stability:** Directed stability profiling
+  of mRNA–LNP formulations under ICH-aligned conditions. Identified
+  critical failure modes compromising cytosolic delivery.
+- **Amaterasu Lifesciences (India) – Long-Acting Injectables:** Spearheaded
+  Donepezil ISFI engineering for Alzheimer's disease. Utilized mechanistic
+  PBPK modeling for First-in-Human dose prediction — submitted to
+  *Nano-Micro Letters*.
+- **InnoMedica (Switzerland) – Oncology Pipeline:** Managed preclinical
+  studies for Talidox (liposomal doxorubicin), generating data packages
+  for Clinical Trial NCT03387917.
+- **GLP Facility Management:** Managed a GLP-compliant facility serving 30+
+  researchers. Achieved **100% audit success rate** through rigorous SOP
+  management and equipment qualification (DQ/IQ/OQ/PQ).
+"""
+)
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown(
+        """
+#### 🏛️ Fraunhofer Institute IME · Frankfurt, Germany
+**Postdoctoral Research Fellow** · Feb 2019 – Jul 2019
+
+- **Global Technology Transfer:** Orchestrated transfer of formulation
+  technologies from German HQ to Singapore — zero data loss across
+  regulatory jurisdictions.
+- **AstraZeneca Collaboration:** Led formulation development for a novel
+  cancer therapeutic (Clinical Trial: NCT04745689).
+"""
+    )
+
+with col2:
+    st.markdown(
+        """
+#### 🏛️ Leibniz University Hannover · Germany
+**Research Fellow (Ph.D. Student)** · Oct 2014 – Sep 2018
+
+- **Ph.D. grade 1.0/1.0 (Summa Cum Laude)** — highest possible distinction
+  in the German academic system.
+- **Research Innovation:** Developed novel aptamer-based biosensors for
+  real-time analyte detection, combining nanotechnology with bioanalytical
+  chemistry.
+"""
+    )
+
+st.markdown("---")
+
 # ── Education ───────────────────────────────────────────────────────────────
 st.header("Education")
 
