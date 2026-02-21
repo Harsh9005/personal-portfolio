@@ -27,11 +27,11 @@ st.header("Submitted & In Revision (2026)")
 st.markdown(
     """
 1. **Modh H**, et al. "Resolving the biomechanical blind spot in nanomedicine
-   translation." *Nature Biomedical Engineering* (Submitted, 2026).
+   translation." (Under Revision, 2026).
 
 2. **Modh H**, et al. "Biorelevant BioJect Release Testing and Mechanistic
    PBPK Modeling Enable First-in-Human Dose Prediction for Long-Acting
-   Injectables." *Nano-Micro Letters* (In Revision, 2026).
+   Injectables." (Under Revision, 2026).
 """
 )
 
