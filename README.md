@@ -1,9 +1,9 @@
 # Personal Portfolio — Harshvardhan Modh, Ph.D.
 
-[![Live App](https://img.shields.io/badge/🌐_Live_App-Streamlit-FF4B4B.svg)](https://personal-portfolio-harsh9005.streamlit.app)
+[![Live App](https://img.shields.io/badge/🌐_Live_App-Streamlit-FF4B4B.svg)](https://personal-portfolio-plfcbkzspazfkqvdbjpvad.streamlit.app)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-green.svg)](https://python.org)
 
-🔗 **Live App:** [https://personal-portfolio-harsh9005.streamlit.app](https://personal-portfolio-harsh9005.streamlit.app)
+🔗 **Live App:** [https://personal-portfolio-plfcbkzspazfkqvdbjpvad.streamlit.app](https://personal-portfolio-plfcbkzspazfkqvdbjpvad.streamlit.app)
 
 > Personal portfolio and blog for Harshvardhan Modh, Ph.D. — pharmaceutical
 > scientist specializing in nanomedicine, IVIVC, and computational modeling.
