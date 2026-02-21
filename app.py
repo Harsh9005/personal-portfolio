@@ -1,0 +1,147 @@
+"""
+Personal Portfolio — Harshvardhan Modh, Ph.D.
+=============================================
+Pharmaceutical scientist, nanomedicine researcher, and computational tool builder.
+"""
+
+import streamlit as st
+
+st.set_page_config(
+    page_title="Harshvardhan Modh, Ph.D.",
+    page_icon="🧬",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+# ── Sidebar Branding ────────────────────────────────────────────────────────
+st.sidebar.markdown("""
+# 🧬 Harshvardhan Modh
+
+**Ph.D. | Pharmaceutical R&D**
+
+Navigate:
+- 🏠 About Me *(this page)*
+- 🔬 Projects & Tools
+- 📚 Publications
+- 📝 Blog
+
+---
+📍 Singapore
+""")
+
+# ── Header ──────────────────────────────────────────────────────────────────
+st.title("Harshvardhan Modh, Ph.D.")
+st.markdown(
+    "### Senior Scientist · Pharmaceutical R&D · Nanomedicine · Computational Modeling"
+)
+st.markdown("📍 Singapore")
+
+st.markdown("---")
+
+# ── Social Links ────────────────────────────────────────────────────────────
+col1, col2, col3, col4 = st.columns(4)
+with col1:
+    st.markdown("🔗 [LinkedIn](https://linkedin.com/in/harshvardhan-modh-phd/)")
+with col2:
+    st.markdown(
+        "🎓 [Google Scholar](https://scholar.google.de/citations?user=J2dpG98AAAAJ&hl=en)"
+    )
+with col3:
+    st.markdown("💻 [GitHub](https://github.com/Harsh9005)")
+with col4:
+    st.markdown("📧 hbmodh@gmail.com")
+
+st.markdown("---")
+
+# ── About Me ────────────────────────────────────────────────────────────────
+st.header("About Me")
+
+st.markdown(
+    """
+R&D Scientist & Project Leader with **8+ years** of expertise in complex
+injectable formulations, nanomedicine, and mRNA-LNP systems. Proven track
+record managing **$2M+ in industrial alliances** with global leaders including
+**Pfizer**, **AstraZeneca**, **CureVac**, and **Sun Pharma** — delivering
+formulation strategies from bench-scale R&D through to clinical translation.
+
+Expert in **IVIVC**, **mechanistic PBPK modeling**, and advanced analytical
+characterization (Cryo-TEM, DLS, HPLC, qPCR) to bridge in vitro performance
+with in vivo outcomes. Deep experience in **GLP-compliant facility management**,
+technology transfer, regulatory audit preparation, and building interactive
+computational tools for pharmaceutical decision-making.
+"""
+)
+
+st.markdown("---")
+
+# ── Core Competencies ───────────────────────────────────────────────────────
+st.header("Core Competencies")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown(
+        """
+#### 🧪 Formulation Strategy
+Lipid Nanoparticles (LNP-mRNA), Liposomes (Doxil generics), In-Situ Forming
+Implants (ISFI), PLGA Microspheres, Hydrogels
+
+#### 💻 Computational Modeling
+Mechanistic PBPK modeling (Simcyp / GastroPlus), IVIVC (Level A / B / C),
+Biorelevant Dissolution Design, FIH Dose Prediction, Interactive Dashboard
+Development (Python / Streamlit)
+"""
+    )
+
+with col2:
+    st.markdown(
+        """
+#### 🏭 Industrial R&D
+CMC Strategy, Technology Transfer, Clinical Trial De-risking, Scale-up
+Support, Stability Profiling (ICH Guidelines)
+
+#### 📋 Regulatory & Quality
+GLP Compliance, DQ / IQ / OQ / PQ Protocols, 100% Audit Success Rate,
+FDA / EMA Regulatory Knowledge, Bioequivalence Strategy
+"""
+    )
+
+st.markdown("---")
+
+# ── Education ───────────────────────────────────────────────────────────────
+st.header("Education")
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.markdown(
+        """
+#### 🎓 Ph.D. in Chemistry
+Leibniz University Hannover, Germany\n
+2014 – 2018\n
+**Grade: 1.0 / 1.0 (Summa Cum Laude)**
+"""
+    )
+
+with col2:
+    st.markdown(
+        """
+#### 🎓 M.S. Pharmaceutical Biotechnology
+NIPER, Mohali, India\n
+2011 – 2013\n
+**Grade: 9.64 / 10 (First Class with Distinction)**
+"""
+    )
+
+with col3:
+    st.markdown(
+        """
+#### 🎓 Bachelor of Pharmacy
+Nirma University, India\n
+2007 – 2011\n
+**Grade: 8.48 / 10 (First Class with Distinction)**
+"""
+    )
+
+st.markdown("---")
+st.caption("Built with Streamlit · Developed by Harshvardhan Modh")
