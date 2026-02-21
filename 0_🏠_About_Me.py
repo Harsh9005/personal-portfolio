@@ -20,10 +20,10 @@ st.sidebar.markdown("""
 **Ph.D. | Pharmaceutical R&D**
 
 Navigate:
-- 🏠 About Me *(this page)*
-- 🔬 Projects & Tools
-- 📚 Publications
-- 📝 Blog
+- 🏠 [About Me](/) *(this page)*
+- 🔬 [Projects & Tools](/Projects)
+- 📚 [Publications](/Publications)
+- 📝 [Blog](/Blog)
 
 ---
 📍 Singapore
