@@ -118,8 +118,7 @@ with col1:
         """
 #### 🎓 Ph.D. in Chemistry
 Leibniz University Hannover, Germany\n
-2014 – 2018\n
-**Grade: 1.0 / 1.0 (Summa Cum Laude)**
+2014 – 2018
 """
     )
 
@@ -128,8 +127,7 @@ with col2:
         """
 #### 🎓 M.S. Pharmaceutical Biotechnology
 NIPER, Mohali, India\n
-2011 – 2013\n
-**Grade: 9.64 / 10 (First Class with Distinction)**
+2011 – 2013
 """
     )
 
@@ -138,8 +136,7 @@ with col3:
         """
 #### 🎓 Bachelor of Pharmacy
 Nirma University, India\n
-2007 – 2011\n
-**Grade: 8.48 / 10 (First Class with Distinction)**
+2007 – 2011
 """
     )
 
